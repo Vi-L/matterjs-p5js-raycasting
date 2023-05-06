@@ -1,3 +1,3 @@
-- move into functions in Player class (constants)
+- move into functions in Player class (and add constants)
 - rearranging level
-- first person view
+- make into actual game?
