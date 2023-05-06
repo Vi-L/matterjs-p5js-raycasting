@@ -113,7 +113,6 @@ function setup() {
 
 function draw() {
     background(30);
-    //stroke(255, 0, 0);
     noStroke();
     strokeWeight(1);
 
