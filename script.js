@@ -7,7 +7,7 @@ class Player {
             frictionAir: 0.05
         };
         this.body = Matter.Bodies.circle(x, y, r, options);
-        this.sight = 300;
+        this.sight = 500;
     }
 
     display() {
@@ -23,7 +23,7 @@ class Player {
 
     castRays() {
         let res = [];
-        for (let angle = -Math.PI / 4 + this.body.angle; angle <= Math.PI / 4 + this.body.angle; angle += Math.PI/200) {
+        for (let angle = -Math.PI / 4 + this.body.angle; angle <= Math.PI / 4 + this.body.angle; angle += Math.PI/250) {
             collisions = raycast(engine.world.bodies, 
                                       {x: this.body.position.x,
                                        y: this.body.position.y},
